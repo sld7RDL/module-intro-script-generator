@@ -222,7 +222,7 @@ def generate_intro_script(anthropic_client, aggregated_text):
     prompt = f"""You are an expert educational copywriter. Your job is to write a highly engaging introduction video script for a course module.
 
 Based *only* on the provided transcripts, write a script for the Module Introduction video following these strict parameters:
-* Length: Exactly 30 seconds (Aim for around 65-75 words / 6 lines of text).
+* Length: Exactly 60 seconds.
 * Goal: Generate curiosity and introduce the module to the students.
 
 Guidelines:
