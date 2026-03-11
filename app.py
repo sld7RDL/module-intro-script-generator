@@ -228,7 +228,7 @@ Based *only* on the provided transcripts, write a script for the Module Introduc
 Guidelines:
 * The Hook: Start with an interesting fact, insight, or question that will be answered.
 * Value Proposition: Clearly state why this module matters to them.
-* Real-World Application: Mention a concrete scenario where they will use these tools.
+* Real-World Application: Suggest a concrete, real-world scenario where a student might use these tools to solve a problem, even if a specific scenario is not explicitly mentioned in the text.
 * Do NOT simply list the topics. Weave them naturally.
 * Tone: Enthusiastic, professional, and encouraging.
 
