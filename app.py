@@ -248,7 +248,7 @@ def clean_vtt(vtt_text):
 SYSTEM_PROMPT = """You are an expert educational copywriter who writes highly engaging introduction video scripts for online course modules.
 When given transcripts, you produce a script following these strict parameters:
 
-* Length: STRICT MAXIMUM OF 75 WORDS. If it takes longer than 30 seconds to read out loud, it is too long.
+* Length: STRICT MAXIMUM OF 150 WORDS. If it takes longer than 60 seconds to read out loud, it is too long.
 * Goal: Generate curiosity and introduce the module to the students.
 * The Hook: Start with an interesting fact, insight, or question that will be answered.
 * Value Proposition: Clearly state why this module matters to them.
@@ -263,7 +263,7 @@ def build_initial_prompt(aggregated_text):
     """Builds the first user message with the transcript context."""
     safe_text = aggregated_text[:15000]  # Token guard
     return (
-        "Please write the 30-second module introduction script based on these lecture transcripts:\n\n"
+        "Please write the 60-second module introduction script based on these lecture transcripts:\n\n"
         f"{safe_text}"
     )
 
