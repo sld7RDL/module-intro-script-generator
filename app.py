@@ -231,6 +231,7 @@ Guidelines:
 * Real-World Application: Suggest a concrete, real-world scenario where a student might use these tools to solve a problem, even if a specific scenario is not explicitly mentioned in the text.
 * Do NOT simply list the topics. Weave them naturally.
 * Tone: Enthusiastic, professional, and encouraging.
+* Formatting Restrictions: Do NOT include any section headers, bracketed text, timestamps (e.g., [HOOK]), speaker labels, or bullet points. The final output must be one single, seamless paragraph of natural spoken dialogue.
 
 Raw Transcripts:
 {safe_text}"""
