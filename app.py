@@ -271,7 +271,7 @@ def call_claude(anthropic_client, messages):
     """Sends the full conversation history to Claude Haiku and returns the reply text."""
     try:
         response = anthropic_client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-haiku-4-5-20251001",
             max_tokens=300,
             system=SYSTEM_PROMPT,
             messages=messages,
